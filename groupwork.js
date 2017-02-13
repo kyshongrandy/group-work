@@ -1,7 +1,12 @@
+/*global $*/
 $(document).ready(function(){
-
-$("button").click(function)
-https://i.ytimg.com/vi/BooEsbHD6SU/maxresdefault.jpg
-$("h1").show();
-    
+var word;
+word="Star Wars";
+$("button").click(function(){
+    var input;
+    input=$("input").val();
+if(input===word){
+$("h3").append("CORRECT FEGGOT");
+}
+});       
 });
